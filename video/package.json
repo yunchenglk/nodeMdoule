@@ -1,0 +1,22 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4",
+    "pomelo-logger": "^0.1.7",
+    "video.js": "^6.2.8"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "date-utils": "^1.2.21",
+    "objectid": "^3.2.1"
+  }
+}

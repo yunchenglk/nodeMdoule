@@ -1,0 +1,50 @@
+{
+    "entity": {
+        "count": "Number",
+        "name": "String",
+        "time": "Date",
+        "uuid":"ObjectId"
+    },
+    "Class": {
+        "ID": "String",
+        "Title": "String",
+        "EnTitle": "String",
+        "ParentID": "String",
+        "Count": "Number",
+        "Publisher": "String",
+        "Pic": "String",
+        "URL": "String",
+        "Description": "String",
+        "IsPublic": "Boolean",
+        "Sort": "Number",
+        "Type": "Number",
+        "CreateTime": "Date",
+        "DR": "Number",
+        "CompanyID": "String",
+        "cate_id": "String",
+        "wx_group_id": "Number"
+    },
+    "cookie": {
+        "key": "String",
+        "date": "Date",
+        "odate": "Date"
+    },
+    "USER": {
+        "_id": "String",
+        "ID": "String",
+        "LoginName": "String",
+        "LoginPwd": "String",
+        "Name": "String",
+        "Type": "Number",
+        "Sex": "Boolean",
+        "PIC": "String",
+        "Telphone": "String",
+        "Email": "String",
+        "Count": "Number",
+        "Last_Login_Time": "Date",
+        "CompanyID": "String",
+        "CreateTime": "Date",
+        "DR": false,
+        "PID": "String"
+    }
+}

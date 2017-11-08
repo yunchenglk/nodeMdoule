@@ -1,0 +1,17 @@
+{
+  "name": "sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tedious": "^2.0.0"
+  },
+  "devDependencies": {
+    "date-utils": "^1.2.21"
+  }
+}

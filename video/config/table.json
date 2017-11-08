@@ -1,0 +1,9 @@
+{
+    "cookie": {
+        "key": "String",
+        "date": "Date",
+        "odate": "Date",
+        "uuid": "ObjectId",
+        "code": "String"
+    }
+}

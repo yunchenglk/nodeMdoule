@@ -1,0 +1,26 @@
+{
+    "cookie": {
+        "key": "String",
+        "date": "Date",
+        "odate": "Date",
+        "uuid":"ObjectId"
+    },
+    "USER": {
+        "_id": "String",
+        "ID": "String",
+        "LoginName": "String",
+        "LoginPwd": "String",
+        "Name": "String",
+        "Type": "Number",
+        "Sex": "Boolean",
+        "PIC": "String",
+        "Telphone": "String",
+        "Email": "String",
+        "Count": "Number",
+        "Last_Login_Time": "Date",
+        "CompanyID": "String",
+        "CreateTime": "Date",
+        "DR": false,
+        "PID": "String"
+    }
+}

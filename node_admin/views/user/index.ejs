@@ -1,0 +1,99 @@
+<% include ../header.ejs %>
+    <div class="view-body">
+        <%include ../left.ejs%>
+            <div class="view-product background-color">
+                <div class="padding-big background-color">
+                    <form name="setp0" action="#" method="post" autocomplete="off" enctype="multipart/form-data">
+                        <input type="text" name="version" />
+                        <input type="text" name="version11" />
+                        <div class="basic-info-detail clearfix">
+                            <div class="unit-style padding-big-lr clearfix">
+                                <h4 class="real-name-head margin-large-top">企业信息
+                                    <span class="margin-left <text-normal></text-normal>">按照证书上的内容逐字填写</span>
+                                </h4>
+                                <div class="real-name-con margin-top-25 clearfix">
+                                    <p class="content-left-zoon margin-small-top">
+                                        证件类型
+                                    </p>
+                                    <div class="content-right-zoon margin-top-15">
+                                        <label class="no-time">
+                                            <span class="fl">
+                                                <input class="licence-class" type="radio" name="type" checked="checked" data-hide="normal_licence" data-show="various_licence"
+                                                    value="0">
+                                            </span>
+                                            <em class="fl">普通营业执照</em>
+                                        </label>
+                                        <label class="no-time">
+                                            <span class="fl">
+                                                <input class="licence-class1 margin-large-left" type="radio" name="type" data-hide="various_licence" data-show="normal_licence"
+                                                    value="1">
+                                            </span>
+                                            <em class="fl">多证合一营业执照</em>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="real-name-con height-main margin-top-25 clearfix">
+                                    <p class="content-left-zoon">
+                                        账号：
+                                    </p>
+                                    <div class="content-right-zoon">
+                                        <input class="width-main input" type="text" datatype="*" name="zhanghao" value="">
+                                    </div>
+                                </div>
+                                <div class="real-name-con height-main margin-top-25 clearfix">
+                                    <p class="content-left-zoon">
+                                        密码：
+                                    </p>
+                                    <div class="content-right-zoon">
+                                        <input class="width-main input" type="password" name="mima" value="">
+                                    </div>
+                                </div>
+                                <div class="real-name-con height-main margin-top-25 clearfix">
+                                    <p class="content-left-zoon">
+                                        文件：
+                                    </p>
+                                    <div class="content-right-zoon">
+                                        <input class="width-main input" type="file" name="wj">
+                                    </div>
+                                </div>
+                                <div class="real-name-con height-main margin-top-25 clearfix">
+                                    <p class="content-left-zoon">
+                                        文件：
+                                    </p>
+                                    <div class="content-right-zoon">
+                                        <input class="width-main input" type="file" name="tupian">
+                                    </div>
+                                </div>
+                                <div class="real-name-con height-main margin-top-25 clearfix">
+                                    <p class="content-left-zoon">
+                                        下拉：
+                                    </p>
+                                    <div class="content-right-zoon">
+                                        <select name="xiala">
+                                            <option value="0">山西</option>
+                                            <option value="1">北京</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="real-name-con margin-top-25 clearfix">
+                                    <p class="content-left-zoon">
+                                        描述：
+                                    </p>
+                                    <div class="content-right-zoon">
+                                        <textarea class="width-main height-large border-gray-around textarea" name="miaoshu"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="unit-style padding-large-tb clearfix">
+                            <div class="margin-large-top padding-left text-left content-right-zoon">
+                                <input type="submit" value="下一步" class="submit fl">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+    <%include ../foot.ejs%>
